@@ -18,7 +18,7 @@ The 'run_analysis.R' script downloads the Human Activity Recognition Using Smart
 6) Extracts mean and standard deviations calculated for variables shown in the codebook (66 applicable variables).
 7) Calculates the mean for each variable in (6) per activity per subject (180 observations).
 8) Outputs the tidy dataset as dataframe labeled 'HAR_tidy'.  The 'HAR_tidy' dataset has 180 observations of 68 variables.  A full list of variables is provided in the HAR_tidy codebook.
-9) Saves the 'HAR_tidy' dataframe as 'HAR_tidy.csv'
+9) Saves the 'HAR_tidy' dataframe as 'HAR_tidy.txt'
 
 ## The script includes the following files:
 
@@ -27,6 +27,8 @@ The 'run_analysis.R' script downloads the Human Activity Recognition Using Smart
 -'README.md': this file; explains data, operations, and included files
 
 -'CodeBook.md': provides list of identifying parameters and output variables
+
+-'HAR_tidy.txt': tidy dataset output from this script
 
 ## Source
 
